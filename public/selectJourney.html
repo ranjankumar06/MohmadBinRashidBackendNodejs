@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select journey</title>
+    <link rel="stylesheet" href="./registrationform.css">
+    <link rel="icon" type="image/x-icon" href="./image/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header p-lg-4 p-md-3 p-sm-2 p-1 ">
+        <img src="./image/logo1.svg" alt="logo">
+    </div>
+    <div class="container">
+
+
+        <div class="heading-select-journey py-3 my-5">
+            <h1 class="text-center"> <span> WELCOME TO MOHAMMED BIN RASHID HOUSING EST.</span><br>
+                <b>METAVERSE SALES CENTER </b>
+            </h1>
+        </div>
+
+        <div class="d-flex justify-content-center gap-5">
+            <div class="journeybutton py-1 px-5" id="scheduledjourney">
+                <h3 class="text-center">
+                    <span class="text-center">Book your session</span><br>
+                    <b>Scheduled Journey</b>
+                </h3>
+            </div>
+            <div class="journeybutton py-1 px-5" id="selfjourney">
+                <h3 class="text-center">
+                    <span class="text-center">Register your self</span><br>
+                    <b>Self Journey</b>
+                </h3>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+
+    document.getElementById("scheduledjourney").addEventListener("click", function (e) {
+        window.location.assign("./scheduleForm.html")
+    })
+    document.getElementById("selfjourney").addEventListener("click", function (e) {
+        window.location.assign("./selfregistrationform.html")
+    })
+
+</script>
+
+</html>

@@ -1,0 +1,151 @@
+@font-face {
+  font-family: myFontProBlack;
+  src: url(./neo-sans-pro-cufonfonts/NeoSansProBlack.OTF);
+}
+
+@font-face {
+  font-family: myFontProBold;
+  src: url(./neo-sans-pro-cufonfonts/NeoSansProBold.OTF);
+}
+
+@font-face {
+  font-family: myFontProMedium;
+  src: url(./neo-sans-pro-cufonfonts/NeoSansProMedium.OTF);
+}
+@font-face {
+  font-family: myFontProRegular;
+  src: url(./neo-sans-pro-cufonfonts/NeoSansProRegular.OTF);
+}
+@font-face {
+  font-family: myFontProLight;
+  src: url(./neo-sans-pro-cufonfonts/NeoSansProLight.OTF);
+}
+
+body {
+  background-image: url(./image/whiteBG.jpg);
+  background-repeat: no-repeat;
+  /* background-position: center;
+  background-size: cover; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.heading {
+  display: inline-block;
+  margin-bottom: 4rem;
+}
+
+.heading h1 {
+  font-family: myFontProRegular;
+  padding: 0.75rem 5rem;
+  background: #005c99;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.25rem;
+}
+.header img {
+  height: auto;
+  width: 19rem;
+}
+/*
+.registration_form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto; scheduleForm
+} */
+.registration_form > form > div > label {
+  font-family: myFontProMedium;
+}
+
+.registration_form > form > div > label > span {
+  color: red;
+}
+
+.appointmentDateTime > div > label > span {
+  color: red;
+}
+
+.appointmentDateTime {
+  font-family: myFontProMedium;
+}
+
+.heading-select-device h1 {
+  font-family: myFontProRegular;
+  color: #005c99;
+}
+
+.heading-select-journey > h1 > span {
+  font-family: myFontProRegular;
+  color: #005c99;
+}
+
+.heading-select-journey > h1 > b {
+  font-family: myFontProBlack;
+  color: #005c99;
+}
+
+button {
+  background: #005c99 !important;
+  font-family: myFontProBlack;
+}
+
+.journeybutton {
+  width: 20.313rem;
+
+  /* display: inline-block; */
+
+  background: #005c99;
+  border-radius: 0.5rem;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.journeybutton:hover {
+  background: #1ab6f1;
+  box-shadow: none;
+}
+
+.journeybutton > h3 > span {
+  font-size: 1.125rem;
+  font-family: myFontProLight;
+}
+.journeybutton > h3 {
+  font-family: myFontProRegular;
+}
+
+.device {
+  border: #005c99 1px solid;
+  /* width: 18rem; */
+  border-radius: 2rem;
+  /* border-radius: 8px;
+background: #D0F2FF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+}
+
+.device:hover {
+  background: #d0f2ff;
+  /* background: #d0f2ff85; */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.device h3 {
+  color: #005c99;
+  font-family: myFontProRegular;
+}
+
+.img-thumbnail {
+  padding: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.row {
+  --bs-gutter-y: 1.5rem !important;
+}

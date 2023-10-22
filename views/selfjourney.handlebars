@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selfjourney</title>
+    <style>
+        body: {
+            color: black;
+
+        }
+    </style>
+</head>
+
+<body style=" background: #DAF5FF;">
+    <div style=" background: #fff;  width: 100% ">
+        <div style="padding: 15% 5% 0; ">
+            {{>header}}
+            <p style="font-family: Verdana; color: #1C1E3A;
+                    font-size: 18px; font-weight: 500">Dear Admin, </p>
+            <p style="font-weight: 400; font-size: 16px ;
+                    color: #1C1E3A; font-family:
+                    Verdana; color: #2f5496">
+
+                This is to inform you that a user has registered for the Self-Journey program. There information is
+                included below for your reference:
+
+            </p>
+            <p style="font-weight: 400; font-size: 16px ;
+                    color: #1C1E3A; font-family:
+                    Verdana; color: #2f5496">
+                Username: {{userName}}<br>
+                Email: {{email}}<br>
+                Mobile Number: {{mobileNumber}}<br>
+
+
+            </p>
+            <p style="font-weight: 400; font-size: 16px ;
+                    color: #1C1E3A; font-family:
+                    Verdana; color: #2f5496">
+
+                Please ensure that their registration is processed promptly and they receive all necessary information
+                regarding the program.
+
+
+
+            </p>
+            <p style="font-weight: 400; font-size: 16px ;
+                    color: #1C1E3A; font-family:
+                    Verdana; color: #2f5496">
+
+                Thank you for your attention to this matter.
+
+
+
+            </p>
+            <p style="font-weight: 400; font-size: 16px ;
+                    color: #1C1E3A; font-family:
+                    Verdana; color: #2f5496">
+
+                Best regards,
+
+
+
+            </p>
+
+
+
+            <br>
+            <br>
+        </div>
+        {{>footer}}
+
+    </div>
+</body>
+
+</html>
